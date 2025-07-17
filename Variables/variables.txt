@@ -1,0 +1,27 @@
+1. What is Variable?
+Ans : The variable is a named memory location used to store data values.
+      They helps us to store, reuse and update information in JavaScript, from simple values
+      like numbers to complex data like arrays and objects.
+
+
+2. let, var and const :
+    let, var and const are the keyword used to declare variables.
+
+2.1 var : 
+        var is a oldest way used to declare a variables. It has a function scope, means
+        the variable declare with "var" keyword in a function can be accessible within that function only.
+        we can redeclare and reassigned  variable with var keyword.
+    
+    Syntax : var name = 'Venkatesh';
+
+
+2.2 let : let was introduced in ES6 (EcmaScript 6) in 2015. It has a block scope, means
+          The variable declared with 'let' keyword can be accessible within block where 
+          it is declared.
+          we cannot redeclare a variable with 'let' keyword but can be reassigned.
+
+    Syntax : let name = "Venkatesh";
+
+2.3 const : const means constant, it was introduced in ES6 in 2015. It has a block scope.
+            it cannot be redeclared or reassigned.
+            It must be initialized during the declaration.
