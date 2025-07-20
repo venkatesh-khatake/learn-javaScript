@@ -138,24 +138,62 @@
 // }
 
 
-function bmi(weight, height){
-    let result = weight / (height * height);
-    console.log("BMI :", result.toFixed(2));
-    if(result >= 16 && result <= 18.5){
-        console.log("UnderWeight");
-    }
-    else if(result > 16 && result <= 25){
-        console.log("Normal");
-    }
-    else if(result > 25 && result <= 30){
-        console.log("OverWeight");
-    }
-    else if(result > 30){
-        console.log("Obesity");
-    }
-    else{
-        console.log("Enter correct Height and weight");
-    }
-}
+// function bmi(weight, height){
+//     let result = weight / (height * height);
+//     console.log("BMI :", result.toFixed(2));
+//     if(result >= 16 && result <= 18.5){
+//         console.log("UnderWeight");
+//     }
+//     else if(result > 16 && result <= 25){
+//         console.log("Normal");
+//     }
+//     else if(result > 25 && result <= 30){
+//         console.log("OverWeight");
+//     }
+//     else if(result > 30){
+//         console.log("Obesity");
+//     }
+//     else{
+//         console.log("Enter correct Height and weight");
+//     }
+// }
 
-console.log(bmi(65,1.67))
+// console.log(bmi(65,1.67))
+
+
+
+// function discountCalc(discount){
+//     return function(amount){
+//         console.log("Actual Amount", amount);
+//         let dis = amount - amount * (discount / 100);
+//         return dis;
+//     };
+// }
+
+// let newDis = discountCalc(10);
+// console.log("Discounted Amount : ",newDis(450));
+
+
+// counter
+
+// function outer(){
+//     let count = 0;
+
+//     function inner(){
+//          count++;
+//          console.log(count)
+//     }
+//     return inner;
+// }
+
+// let counter = outer();
+// counter();
+// counter();
+// counter();
+// counter()
+
+
+// function doubleIt(val){
+//     return val * 2;
+// }
+// console.log(doubleIt(10));
