@@ -1,0 +1,12 @@
+Arrays :
+    Arrays are data structure that allows you to store multiple values
+    in a single variable.
+    It's like a list or collection of items.
+
+Syntax : let arr = [1,2,4];
+
+    Arrays are zero indexed, meaning the first element has an index of 0, 
+    the second has an index of 1 and so on.
+
+
+ 
